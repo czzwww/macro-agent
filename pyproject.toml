@@ -1,0 +1,18 @@
+[project]
+name = "macro-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "akshare>=1.18.94",
+    "fastapi>=0.141.1",
+    "langgraph>=1.2.11",
+    "openai>=3.8.0",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+    "schedule>=1.2.2",
+    "tavily-python>=0.8.1",
+    "uvicorn>=0.52.4",
+]
